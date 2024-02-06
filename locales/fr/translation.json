@@ -1,0 +1,789 @@
+{
+  "appName": "Outch",
+  "appNamePro": "Outch Pro",
+  "app": {
+    "external": {
+      "screenshot": "Capture d'écran",
+      "noData": "Pas de données disponibles",
+      "desc": "Cette page est un résumé de l'activité de {{name}} sur le dernier mois. Si vous n'êtes pas le destinataire de cet URL, merci de quitter la page.",
+      "crisis": {
+        "title": "Crises",
+        "counter": "Nombre de crises",
+        "crisisRepartition": "Répartition des crises par symptôme"
+      },
+      "questionnaires": {
+        "title": "Questionnaires de suivi",
+        "average": "Score moyen des questionnaires",
+        "count": "Nombre de questionnaires effectués"
+      },
+      "symptoms":{
+        "title": "Symptômes",
+        "cumulatedScore": "Score d'intensité cumulé de chaque symptôme",
+        "max": "Symptom maximal score",
+        "average": "Symptom average score"
+      },
+      "dailyActivities": {
+        "title": "Activités quotidiennes et environnement"
+      }
+    },
+    "quickActions": {
+      "addCrisis": "Ajouter une crise"
+    },
+    "enum": {
+      "validation": {
+        "IN_PROGRESS": "Validation en cours",
+        "VALIDATED": "Validaté",
+        "NOT_VALIDATED": "Non Validé",
+        "EXPIRED": "Expiré",
+        "ACTIVE": "Activé",
+        "CREATED": "Créé"
+      },
+      "cspType": {
+        "OTHER": "Autre",
+        "PROFESSIONAL": "Profession qualifiée",
+        "MANAGER": "Manager",
+        "TECHNICIAN": "Technicien",
+        "CLERKS": "Clergé",
+        "SERVICE": "Service et vendeur",
+        "AGRICULTOR": "Agriculteur",
+        "OPERATOR": "Operateur",
+        "CRAFT": "Artisan",
+        "ELEMENTARY": "Professions élémentaires",
+        "ARMED": "Army"
+      },
+      "hcpType": {
+        "GENERAL":"Generaliste",
+        "ONCOLOGY":"Oncologue",
+        "DERMATOLOGY":"Dermatologue",
+        "CARDIOLOGY":"Cardiologue",
+        "NEUROLOGY":"Neurologue",
+        "ENDOCRINOLOGY":"Endocrinologue",
+        "GASTRO":"Gastroenterologue",
+        "HEMATOLOGY":"Hématologue",
+        "PEDIATRY":"Pediatre",
+        "GYNECOLOGY":"Gynécologue",
+        "RHEUMATOLOGY":"Rheumatologue",
+        "UROLOGY":"Urologue",
+        "OTHER":"Autre"
+      },
+      "triggerFactorEnum": {
+        "ALCOOL":"Alcool",
+        "STRESS":"Stress",
+        "TOOMUCH_SLEEP":"Excès de Sommeil",
+        "LACK_SLEEP":"Manque de Sommeil",
+        "JETLAG":"Décalage horaire",
+        "HEAT":"Chaleur",
+        "COLD":"Froid",
+        "EMOTION":"Emotions"
+      },
+      "migraineType": {
+        "TENSION_HEADACHE":"Céphalé de tension",
+        "WITH_AURA":"Migraine avec Aura",
+        "WITHOUT_AURA":"Migraine sans Aura",
+        "MEDICATION_RELATED":"Migraine médicamenteuse",
+        "OTHER":"Autre"
+      },
+      "symptom": {
+        "ASTHMA":"Asthme",
+        "MIGRAINE":"Migraine",
+        "DEPRESSION":"Depression",
+        "NAUSEA":"Nausée",
+        "HEADACHE":"Mal de tête",
+        "SKIN_ITCHING":"Démangeaison",
+        "STOMACH_ACHE":"Douleur d'estomac",
+        "NOISE_SENSIBILITY":"Sensibilité au bruit",
+        "LIGHT_SENSIBILITY":"Sensibilité à la lumière",
+        "VOMITING":"Vomissements",
+        "ACID_REFLUX":"Reflux d'acide",
+        "NOSE_BLEEDING":"Saignement de nez",
+        "CHEST_PAIN":"Douleur à la poitrine",
+        "CONSTIPATION":"Constipation",
+        "DIARRHEA":"Diarrée",
+        "DIZZINESS":"Vertiges",
+        "FEVER":"Fièvre",
+        "FLATULENCE":"Flatulences"
+      },
+      "categorySymptom": {
+        "SKIN":"Peau",
+        "RESPIRATORY":"Appareil respiratoire",
+        "DIGESTIV":"Appareil digestif",
+        "MENTAL":"Mental",
+        "PAIN":"Douleur"
+      },
+      "pathologies": {
+        "ASTHMA":"Asthme",
+        "MIGRAINE":"Migraine",
+        "DEPRESSION":"Depression",
+        "CANCER": "Cancer",
+        "NA": "NA"
+      },
+      "frequency": {
+        "PER_DAY":"fois par jour",
+        "PER_WEEK":"fois par semaine",
+        "PER_MONTH":"fois par mois",
+        "PER_MEAL":"fois par repas",
+        "ON_CRISIS":"en cas de crise"
+      },
+      "quantity": {
+        "MG":"mg",
+        "G":"g",
+        "ML":"ml",
+        "CL":"cl",
+        "PILL":"comprimé"
+      },
+      "country": {
+        "FRANCE":"France",
+        "USA":"USA",
+        "GERMANY":"Allemagne",
+        "ITALY":"Italie",
+        "SPAIN":"Espagne"
+      }
+    },
+    "title": {
+      "welcomeBack": "Content de te revoir!",
+      "comingSoon": "Cette page arrive bientôt!",
+      "journal": "Journal",
+      "goToRewards": "Voir la boutique",
+      "goToRoutines": "Voir les routines",
+      "goToCommunity": "Voir mon feed",
+      "routines": "Routines",
+      "pathology": "Pathologie",
+      "pathologies": "Pathologies",
+      "ranking": "Classement",
+      "picture": "Image",
+      "configuration": "Config",
+      "social": "Social",
+      "patient": "Patient",
+      "event": "Evènement",
+      "studies": "Etudes",
+      "help": "Aide",
+      "language": "Langue",
+      "account": "Compte",
+      "profile": "Profil",
+      "agenda": "Agenda",
+      "consents": "Consentements",
+      "menu": "Menu",
+      "notifications": "Notifications",
+      "rewards": "Rewards",
+      "exports": "Exports",
+      "profileQuality": "Qualité du profil",
+      "error": "Erreur",
+      "others": "Autres",
+      "currentRewards": "Points",
+      "medicalProfile": "Profil Medical",
+      "somethingWrong": "Il y a eu une erreur !",
+      "noEvent": "Pas d'évènement enregistré",
+      "noPathology": "Pas de pathologie enregistrée",
+      "noMedication": "Pas de traitement enregistré",
+      "noNotification": "Pas de Notification",
+      "noStudy": "Pas d'études actuellement",
+      "leaderboard": "Classement",
+      "points": "Points",
+      "claim": "Reclamer",
+      "scores": "Scores",
+      "yourProfile": "Votre Profil",
+      "yourWeek": "Votre Semaine",
+      "symptomIntensity":"Intensité des symptômes par jour"
+    },
+    "awards": {
+      "ROUTINE": "Routines",
+      "DAILY_CHECKUP": "Symptômes",
+      "REWARDS": "Rewards",
+      "SURVEY": "Sondages",
+      "PROFILE": "Profil",
+      "FRIEND": "Social",
+      "DEFAULT": "Autre",
+      "FIRST_ROUTINE": {"titleKey": "1ERE ROUTINE", "subtitleKey": "Ich bin ein routiner", "descriptionKey": "Inscris toi à ta première routine"},
+      "FRIEND_1": {"titleKey": "1 FRIEND", "subtitleKey": "Just the two of us", "descriptionKey": "Ajoute ton premier ami"},
+      "FRIEND_3": {"titleKey": "3 FRIENDS", "subtitleKey": "The Good, the Bad and the Ugly", "descriptionKey": "Ajout 3 amis"},
+      "FRIEND_5": {"titleKey": "5 FRIENDS", "subtitleKey": "F.R.I.E.N.D.S", "descriptionKey": "Ajoute 5 amis"},
+      "FRIEND_10": {"titleKey": "10 FRIENDS", "subtitleKey": "Gang of NY", "descriptionKey": "Ajoute 10 amis"},
+      "DAILY_CHECKUP_1": {"titleKey": "1ER CHECKUP", "subtitleKey": "The first day of the rest of your life", "descriptionKey": "Réponds à ton premier Checkup Quotidien"},
+      "DAILY_CHECKUP_3": {"titleKey": "SERIE DE 3", "subtitleKey": "Things always come in three", "descriptionKey": "Réponds à ton Checkup Quotidien 3 jours d'affilés"},
+      "DAILY_CHECKUP_7": {"titleKey": "SERIE DE 7", "subtitleKey": "My name is Bond, James Bond", "descriptionKey": "Réponds à ton Checkup Quotidien 7 jours d'affilés"},
+      "DAILY_CHECKUP_15": {"titleKey": "SERIE DE 15", "subtitleKey": "Times flies when you're having fun", "descriptionKey": "Réponds à ton Checkup Quotidien 15 jours d'affilés"},
+      "DAILY_CHECKUP_30": {"titleKey": "SERIE DE 30", "subtitleKey": "5x6", "descriptionKey": "Réponds à ton Checkup Quotidien 30 jours d'affilés"},
+      "DAILY_CHECKUP_50": {"titleKey": "SERIE DE 50", "subtitleKey": "50 shades of daily check up", "descriptionKey": "Réponds à ton Checkup Quotidien 50 jours d'affilés"},
+      "DAILY_CHECKUP_96": {"titleKey": "SERIE DE 96", "subtitleKey": "Queen Elizabeth II", "descriptionKey": "Réponds à ton Checkup Quotidien 96 jours d'affilés"},
+      "DAILY_CHECKUP_300": {"titleKey": "SERIE DE 300", "subtitleKey": "Spartan Gladiator", "descriptionKey": "Réponds à ton Checkup Quotidien 300 jours d'affilés"},
+      "DAILY_CHECKUP_500": {"titleKey": "SERIE DE 500", "subtitleKey": "Braveheart", "descriptionKey": "Réponds à ton Checkup Quotidien 500 jours d'affilés"},
+      "DAILY_CHECKUP_FORGOT": {"titleKey": "OUPSY", "subtitleKey": "I will be back", "descriptionKey": "Oublie ton checkup un jour"},
+      "PROFIL_100": {"titleKey": "PROFIL 100%", "subtitleKey": "Half man, half super human", "descriptionKey": "Remplis ton profil à 100%"},
+      "PROFIL_VALIDATED": {"titleKey": "VALIDE", "subtitleKey": "What's Up Doc", "descriptionKey": "Valide ton profil patient"},
+      "HEALTH_CONNECTION": {"titleKey": "CONNECTE", "subtitleKey": "Transformers", "descriptionKey": "Connecte ton application à Google ou Apple Health"},
+      "SURVEY_1": {"titleKey": "1 SONDAGE", "subtitleKey": "One small step for a man", "descriptionKey": "Réponds à 1 sondage"},
+      "SURVEY_3": {"titleKey": "3 SONDAGES", "subtitleKey": "Un, Dos, Tres, un passito palante Maria", "descriptionKey": "Réponds à 3 sondages"},
+      "SURVEY_10": {"titleKey": "10 SONDAGES", "subtitleKey": "A giant leap for the mankind", "descriptionKey": "Réponds à 10 sondages"},
+      "SURVEY_20": {"titleKey": "20 SONDAGES", "subtitleKey": "Team Pr. Emmet Brown", "descriptionKey": "Réponds à 20 sondages"},
+      "SURVEY_50": {"titleKey": "50 SONDAGES", "subtitleKey": "The Scientist", "descriptionKey": "Réponds à 50 sondages"},
+      "COMMENT": {"titleKey": "COMMENT", "subtitleKey": "XOXO Gossip Girl", "descriptionKey": "Laisser un commentaire"},
+      "ONBOARDING_DONE": {"titleKey": "ONBOARDING", "subtitleKey": "Welcome Onboard", "descriptionKey": "Finish the onboarding"},
+      "POINTS_10K": {"titleKey": "10K", "subtitleKey": "Fort Knox", "descriptionKey": "Gagne 10 000 points"},
+      "LOTO": {"titleKey": "GOLD TICKET", "subtitleKey": "Gold Digger", "descriptionKey": "Participer à une loterie"},
+      "LOTO_WON": {"titleKey": "LOTO WINNER", "subtitleKey": "The Italian Job", "descriptionKey": "Gagne une loterie"},
+      "NOTIFICATIONS": {"titleKey": "NOTIFICATIONS", "subtitleKey": "", "descriptionKey": ""},
+      "NEWSLETTER": {"titleKey": "NEWSLETTER", "subtitleKey": "", "descriptionKey": ""},
+      "noAwardYet": "Il n'y a pas encore de badges disponibles",
+      "howTo": "Comment l'obtenir",
+      "difficulty": "Difficulté"
+    },
+    "profile": {
+      "connections": "Connexions",
+      "element": {
+        "from": "De",
+        "to": "à",
+        "dateOfDiagnonsis": "Date de diagnostique",
+        "actionsLeft": "actions restantes",
+        "daysLeft": "jours restants"
+      },
+      "consent": "Consentement",
+      "consents": {
+        "activity": "J'accepte de recevoir un mail hebdomadaire sur mon activité dans l'application",
+        "studies": "J'accepte de recevoir des mails pour m'informer des études en cours"
+      },
+      "serieBadge": {
+        "title": "Serie en cours",
+        "help": "Ce badge te montre combien de jours d'affilés tu as remplis ton Checkup Quotidien. \n \n Une fois que tu as rempli ton profil, tu gagnes un bonus de 1% sur tout tes rewards pour chaque semaine complête effectuée, avec une limite de bonus fixée à 10%",
+        "currentBonus": "Bonus actuel"
+      },
+      "legalDocument": "Documents Légaux",
+      "linkCGU": "Lien vers les Conditions Générales d'Utilisation",
+      "linkPC": "Lien vers la Politique de Vie Privée",
+      "settings": "Settings",
+      "info": "Info",
+      "legal": "Légal",
+      "goToProfile": "Page Profil",
+      "goToStudy": "Page Etudes",
+      "createStudy": "Créer une étude",
+      "backToProfile": "Retour au Profil",
+      "addAnotherPicture": "Ajouter une autre image",
+      "notifications": "Notifications",
+      "notifications_subtitle": "Choisis quand tu veux recevoir tes rappels pour ton Checkup quotidien et tes tâches de routines",
+      "alreadyActivated": "Activé",
+      "activateNotification": "Active les notifications",
+      "morningNotif": "Matin",
+      "middayNotif": "Midi",
+      "eveningNotif": "Soir"
+    },
+    "rewards": {
+      "OutchSurveys": "Programmes Outch⚡️",
+      "surveys": "Sondages",
+      "title": "Rewards",
+      "programs": {
+        "cpxProgramDesc": "Reçois un rappel tout les jours pour faire un sondage CPX",
+        "status": {
+          "SUBMITTED": "Inscription envoyée",
+          "VALIDATED": "Inscrits",
+          "WAITING_LIST": "En liste d'attente"
+        },
+        "subscribed": "Incrits",
+        "description": "Description",
+        "tasks": "Tâches",
+        "noTask": "Pas de tâches dans ce programme",
+        "fulfillQuestionnaire": "Pour t'inscrire dans ce programme, remplis ce questionnaire. Il nous permettra de valider ton éligibilité."
+      },
+      "getMoreRewards": "Plus de Rewards",
+      "moreReward": {
+        "title": "Comment gagner plus de points",
+        "intro": "Voici quelques actions que tu peux faire pour obtenir plus de points",
+        "profile": "Rempli ton profil et tiens le à jour",
+        "routine": "Inscris toi à des routine et suis les",
+        "symptoms": "Remplis ton check-up quotidien",
+        "surveys": "Répond à des sondage en cliquant sur le bouton au dessus"
+      },
+      "inventory": {
+        "title": "Inventaire",
+        "empty": "Vtre inventaire est vide",
+        "useIt": "Utiliser",
+        "VOUCHER": {
+          "TO_VERIFY": "Verification en cours",
+          "TO_SENT": "Envoi en cours",
+          "SENT": "Envoyé",
+          "CANCELED": "Annulé"
+        }
+      },
+      "CPX": "CPX Sondages",
+      "shop": {
+        "title": "Boutique",
+        "confirmation": "Es-tu sur de vouloir l'acheter?",
+        "category": {
+          "VOUCHER": "Bon d'achat",
+          "DONATION": "Donation"
+        },
+        "VOUCHER": {
+          "title": "Bon d'achat",
+          "description": "Bon d'achat d'un montant de ",
+          "confirmation": "Ta requête a bien été envoyée, ton achat apparait dans l'onglet inventaire. Il sera traité dans moins de 7 jours."
+        },
+        "DONATION": {
+          "title": "Donation",
+          "description": "Don d'un montant de "
+        },
+        "buyIt" : "Acheter",
+        "points": "Points"
+      }
+    },
+    "consents": {
+      "title": "Consentements",
+      "consent1": "Je consents à l'utilisation de mes données de santé dans le cadre de l'application. Ces données de santé ne seront transférées à personne.",
+      "consent2": "Je consents à l'anonymisation de mes données pour réaliser et transmettre des rapports d'étude, ou pour valider les performances de l'application.",
+      "consent3": "J'ai lu et j'accepte les CGU de l'application",
+      "otherDoc": "Vous pouvez lire nos CGU et notre politique de vie privée ici : "
+    },
+    "settings": {
+      "title": "Settings",
+      "appleHealthKitSettings": "Apple Health Kit",
+      "googleFitSettings": "Google Fit",
+      "requests": {
+        "title": "Requêtes",
+        "newRequest": "Nouvelle Requête",
+        "requestInfo": "Les requêtes sont prises en charges dans les 2 semaines par notre équipe",
+        "requestWarningHealth": "Tu perdras tout ton historiques et tes dashboard",
+        "requestWarningAll":  "Tu perdras tout ton historiques, tes dashboards et tes rewards",
+        "ALL_DATA_DELETION": "Supprimmer toutes les données",
+        "HEALTH_DATA_DELETION": "Supprimmer toutes les données de santé",
+        "myRequests": "Mes requêtes"
+      },
+      "profile": {
+        "dosage": "Posologie",
+        "period": "Période",
+        "frequency": "Fréquence",
+        "quantity": "Quantité",
+        "documentDesc": "Ce sont des documents que tu as chargé dans l'application. Ils nous sont utile pour valider les informations que tu remplis, ou pour te souvenir de quelque chose. Nous n'envoyons ces documents à personne.",
+        "documentTooLarge": "Le document est trop lourd (taille max : 5mb)",
+        "noDocuments": "Aucun document enregistré",
+        "documents": "Tes Documents",
+        "symptom": "Symptôme",
+        "yourProfile": "Ton Profil",
+        "yourPathologies": "Tes Pathologies",
+        "yourMedications": "Tes Traitements",
+        "dateOfBirth": "Date de Naissance",
+        "firstName": "Prénom",
+        "cspType": "Catégorie Socio-Professionnelle",
+        "newPathology": "Nouvelle Pathologie",
+        "completion": "Completion du profile",
+        "newMedication": "Nouveau traitement",
+        "addNewMedicationIntake": "Ajouter une prise de médicament",
+        "addMedicationPicture": "Tu peux aussi charger une photo du médicament pour te rappeler ce que tu as pris",
+        "writeMedicationName": "Ecrit le nom du médicament",
+        "findMedicationName": "Ou choisit un des traitement enregistré",
+        "medicationName": "Nom du traitement",
+        "efficiency": "Efficacité",
+        "efficiencyLow": "Peu Efficace",
+        "efficiencyHigh": "Très Efficace",
+        "medicationIntake": "Prise de Médicament",
+        "selectSymptom": "Selectionner un symptôme",
+        "from": "Du",
+        "to": "au",
+        "startDate": "Date de début",
+        "pathologyName": "Nom de la pathologie",
+        "endDate": "Date de fin",
+        "currentMedication": "Traitement actuel",
+        "hcpType": "Spécialitée",
+        "hcpName": "Nom du médecin",
+        "dateOfDiag": "Date de Diagnostique",
+        "country": "Pays",
+        "zipcode": "Code Postal",
+        "weight": "Poids (kg)",
+        "height": "Taille (cm)",
+        "pathology": {
+          "name": "Nom de la pathologie"
+        },
+        "gender": {
+          "title": "Genre", 
+          "male": "Homme",
+          "female": "Femme",
+          "transgender": "Transgenre"
+        },
+        "smoker": {
+          "title": "Fumeur",
+          "yes": "Oui",
+          "no": "Non",
+          "ex": "Ex-Fumeur"
+        },
+        "role": {
+          "title": "Role",
+          "patient": "Patient",
+          "relative": "Proche",
+          "other": "Autre",
+          "document": "Si vous êtes un patient, vous pouvez nous envoyer un document qui le prouve (ordonnance, médicament, etc...). Cela nous permettra de valider votre profil plus rapidement."
+        }
+      }
+    },
+    "account": {
+      "recurringSymptoms": "Tes Symptômes",
+      "title": "Compte",
+      "awards": {
+        "title": "Badges"
+      },
+      "settings": {
+        "title": "Settings"
+      },
+      "legal": {
+        "title": "Légal"
+      }
+    },
+    "notifications": {
+      "noNotification" : "Plus de notification pour aujourd'hui, reviens demain!",
+      "newAward": "Tu as eu un nouveau Badge, félicitation!",
+      "actionCardQuestion": {
+        "doYouSmoke": "Est-ce-que tu fumes?",
+        "doYouHaveMeetingPlaned": "As-tu un rdv medical de prévu?",
+        "didRememberMedication": "As-tu pris tes traitements?",
+        "doCurrentlyTakeMedication": "Prends tu un traitement actuellement?",
+        "whatMood": "Comment vas-tu aujourd'hui??",
+        "whatFirstName": "Quel est ton prénom?",
+        "allDone": "Plus rien à faire ici!"
+      }
+    },
+    "community": {
+      "communityIdCopied": "Copié",
+      "noData": "Pas de données disponibles",
+      "MOOD": "Humeur de la communauté",
+      "MY_DAY": "Journée de la communauté",
+      "feed": {
+        "title": "Feed",
+        "warningTags": "⚠️ Ton message sera envoyé avec les tags ci-dessus. Change les si tu le souhaites."
+      },
+      "dashboard": {
+        "title": "Dashboard",
+        "dailyActivity": "La journée de la communauté"
+      },
+      "connexion": {
+        "title": "Connexions",
+        "name": "Nom de la connexion",
+        "expirationDate": "Date d'expiration",
+        "youShare": "Cette connexion partage : ",
+        "subtitle": "Ici, vous pouvez créer des lien pour partager vos infos avec d'autres utilisateurs d'Outch, par exemple votre médecin, vos proches ou d'autres personnes qui pourraient avoir besoin d'avoir un aperçu de votre état. Vous contrôlez ce que vous partagez avec eux et pouvez supprimer ces liens à tout moment.",
+        "addNew": "Créer un nouveau lien",
+        "crisis": "Vos crises",
+        "questionnaires": "Vos questionnaires enregistrés",
+        "symptoms": "L'intensité de vos symptômes",
+        "dailyActivities": "Vos activités quotidiennes",
+        "seeDashboard": "Voir le tableau de bord",
+        "copyKey": "Copiez la clé et partagez-la",
+        "enterKey": "Entrez une clé de connexion",
+        "share": "Coche ce que tu veux partager via ce lien",
+        "keyCopied": "URL copié, tu peux maintenant le partager"
+      },
+      "title": "Social",
+      "friendsTitle": "Amis",
+      "leaderboardTitle": "Classement",
+      "addFriendSubtitle": "Copie l'Id de ton ami ici pour lui envoyer une demande de connexion",
+      "leaderboardSubtitle": "Consulte les scores de tes amis",
+      "addFriend": "Ajoute un ami",
+      "noFriends": "Pas d'ami enregistré",
+      "yourCommunityId": "Partage ce code à tes amis : ",
+      "subtitle": "Entre les codes de tes amis ici.",
+      "noRank": "Pas encore de classement à afficher",
+      "ranking": "Classement",
+      "friendsLeaderboard": "Classement de tes amis",
+      "myFriends": "Mes Amis",
+      "noFriendYet": "Tu n'as pas encore d'ami enregistré",
+      "friendRequests": "Requêtes",
+      "noRequest": "Pas de requêtes en cours",
+      "waiting": "Attente de réponses"
+    },
+    "button": {
+      "start": "Start",
+      "buy": "Acheter",
+      "close": "Fermer",
+      "goToProApp": "Aller à l'app Pro",
+      "goToPatientApp": "Aller à l'app Patient",
+      "goToApp": "Aller à l'app",
+      "patients": "Patients",
+      "exit": "Quitter l'application",
+      "pros": "Pro",
+      "tryAgain": "Reéssayer",
+      "back": "Retour",
+      "loadMore": "Voir plus",
+      "noMoreResult": "Plus de résultats",
+      "next": "Suivant",
+      "letsGo": "Allons y",
+      "done": "Ok",
+      "upload": "Charger",
+      "cancel": "Annuler",
+      "send": "Envoyer",
+      "add": "Ajouter",
+      "new": "Nouveau",
+      "accept": "Accepter",
+      "create": "Créer",
+      "more": "Plus d'info",
+      "subscribed": "Déjà inscris",
+      "subscribe": "S'inscrire",
+      "unsubscribe": "Désinscrire",
+      "areYouSure": "Es-tu sûr?",
+      "validate": "Valider",
+      "save": "Sauvegarder",
+      "forgotPassword": "Mot de passe oublié",
+      "signInNoPassword": "Si tu as déjà un compte mais pas de mot de passe, clique ici"
+    },
+    "simple": {
+      "yes": "Oui",
+      "yesAddIt": "Oui, je l'ajoute",
+      "no": "Non",
+      "notYet": "Pas encore",
+      "notCurrently": "Pas en ce moment",
+      "nothingPlaned": "Rien de planifié",
+      "ok": "Ok"
+    },
+    "onboardingPatient": {
+      "title1": "Bienvenue, C'est ta première fois ici!",
+      "subtitle1": "Pour te connaitre un peu mieux, peux-tu me donner ton pseudo? Il sera visible par tous les utilisateurs",
+      "title2": "Enchanté ",
+      "subtitle2": "Peux tu maintenant me donner ton genre et ta date de naissance?",
+      "title3": "Tes pathologies",
+      "subtitle3": "Et enfin, y-a-t'il une pathology que je devrais connaitre pour te proposer des contenus personnalisés?",
+      "title4": "Enfin, peux tu me dire quel symptômes souhaites-tu suivre et réduire?",
+      "labelDateOfBirth": "Date de naissance",
+      "title5": "On est bon!",
+      "subtitle5": "Tu peux maintenant aller dans l'app!",
+      "listDisease": {
+        "diabete": "Diabete",
+        "alzheimer": "Alzheimer",
+        "cancer": "Cancer",
+        "COPD": "BPCO",
+        "crohn": "Maladie De Crohn",
+        "heartDisease": "Maladie CardioVasculaire",
+        "obesity": "Obésité",
+        "pneumonia": "Pneumonie",
+        "depression": "Depression",
+        "psoriasis": "Psoriasis",
+        "endometriosis": "Endométriose",
+        "bronchitis": "Bronchite",
+        "herpes": "Herpes",
+        "migraine": "Migraine",
+        "asthma": "Asthme",
+        "otherHead": "Autre pathologie mentale",
+        "otherStomach": "Autre pathologie lié au système digestif",
+        "otherLung": "Autre pathologie lié au système respiratoire",
+        "otherMuscle": "Autre pathologie lié au système musculaire"
+      }
+    },
+    "firstConnectionSwiperPatient": {
+      "title1": "Connais toi",
+      "description1": "Obtiens des information simple sur toi-même",
+      "title2": "Réduis tes symptômes",
+      "description2": "Suis les routines faites pour toi",
+      "title3": "Avance à plusieurs",
+      "description3": "Partage avec les utilisateurs qui rencontres les mêmes difficultés que toi, ou bien juste tes amis.",
+      "title4": "Obtiens des récompenses",
+      "description4": "Tu gagnes des récompenses pour chaque action positive que tu réalises",
+      "title5": "Prêt?",
+      "description5": "Click sur suivant pour te connecter"
+    },
+    "firstConnectionSwiperPro": {
+      "title1": "Suit tes études",
+      "description1": "Obtiens les premières tendances sur tes études en cours.",
+      "title2": "Télécharge et partage tes rapports d'étude.",
+      "description2": "Télécharge les données brutes et partage facilement les rapports d'études générés automatiquement.",
+      "title3": "Réalise de nouvelles études",
+      "description3": "Envoie nous ton brief ou solicite directement notre base d'utilisateurs."
+    },
+    "crud": {
+      "create": "Créer",
+      "edit": "Modifier",
+      "Remove": "Supprimer",
+      "update": "Update",
+      "delete": "Supprimer"
+    },
+    "snackbar":{
+      "saved": "Sauvegardé !",
+      "removed": "Supprimé !",
+      "newNotification": "Nouvelle Notification !",
+      "periodTooLong": "La période entre les 2 dates et trop longue. Le maximum est de 3 mois",
+      "newAward": "Félicitation, tu as reçu un nouveau badge"
+    },
+    "tourGuide": {
+      "home": "Tu trouveras toutes tes notifications ici.",
+      "programs": "Inscris-toi à de nouveaux programmes et suit tes programmes en cours.",
+      "account": "Trouve toutes les informations liées à ton compte ici",
+      "community": "Ajoute des amis et suit leurs propres programmes",
+      "rewards": "Cumules les rewards et achète toi des objets exclusifs",
+      "userPrograms": "Tu trouveras tes programmes en cours ici",
+      "availablePrograms": "Et ceux qui sont disponible là",
+      "awards": "Chaque programme peux te faire gagner de Awards inédits",
+      "legal": "Nos CGU et nos politiques sont stockées ici",
+      "settings": "Change les paramètres de l'app en fonction de tes préférences",
+      "friends": "Ajoute l'ID de tes amis ici pour leur envoyer une requête",
+      "bank": "Tu as ici ton stock de rewards",
+      "shop": "Dépenses les dans le shop",
+      "inventory": "Et retrouve tes objets achetés ici!"
+    },
+    "tips": {
+      "notification": "Ton score a été mis à jour, continue d'utiliser l'app pour l'augmenter!"
+    },
+    "questionnaires": {
+      "QLQ30": "https://nkzc9qiv0or.typeform.com/to/LSfqOb6V"
+    },
+    "symptoms": {
+      "myDay": {
+        "title": "Vos activités quotidiennes",
+        "MOOD": "Mon Humeur",
+        "ACTIVITY": "Mes Activités",
+        "ENVIRONMENT": "Mon Environnement",
+        "ALCOHOL": "Ma Consommation d'Alcool",
+        "SOCIAL": "Mes Interactions Sociales",
+        "ALCOHOL_NONE": "Je n'ai pas bu d'alcool",
+        "ALCOHOL_FEW": "J'ai bu 1 ou 2 verres",
+        "ALCOHOL_NORMAL": "J'ai bu 3 à 5 verres",
+        "ALCOHOL_A_LOT": "J'ai bu plus de 5 verres",
+        "ACTIVITY_WORK": "J'ai travaillé",
+        "ACTIVITY_SPORT": "J'ai fait du sport",
+        "ACTIVITY_GAME": "J'ai joué",
+        "ENVIRONMENT_NATURE": "J'étais dans la nature",
+        "ENVIRONMENT_CITY": "J'étais en ville",
+        "ENVIRONMENT_HOME": "Je suis resté chez moi",
+        "SOCIAL_FRIENDS": "J'ai vu des amis",
+        "SOCIAL_FAMILY": "J'ai vu ma famille",
+        "SOCIAL_ALONE": "Je suis resté tout seul",
+        "MOOD_0": "Je ne me sens pas bien du tout",
+        "MOOD_1": "Je me sens mal",
+        "MOOD_2": "Je me sens ni bien ni mal",
+        "MOOD_3": "Je vais bien",
+        "MOOD_4": "Je vais très bien",
+        "MOOD_5": "Je me sens super bien!"
+      },
+      "checkup": "Checkup Quotidien",
+      "mood": "Mon Humeur",
+      "MENTAL": "Mental",
+      "RESPIRATORY": "Respiratoire",
+      "SKIN": "Peau",
+      "DIGESTIV": "Digestif",
+      "ASTHMA": "Crise d'Asthme",
+      "SKIN_ITCHING": "Démangeaison",
+      "DEPRESSION": "Depression",
+      "STOMACH_ACHE": "Douleur d'estomac",
+      "keepAsRecurringSymptom": "Ajouter ce symptome dans mon checkup quotidien",
+      "labelSymptom": "Symptôme",
+      "newSymptom": "Ajouter un Symptôme",
+      "lowSymptoms": "Faible",
+      "highSymptoms": "Sévère",
+      "noSymptom": "Pas de symptôme",
+      "today": "Aujourd'hui",
+      "yesterday": "Hier",
+      "oneWeekAgo": "Il y a une semaine",
+      "all": "Tous les symptômes",
+      "dailyCheckUp": {
+        "title": "CheckUp Quotidien"
+      },
+      "crisis": {
+        "addNew": "Ajouter une crise",
+        "duration": "Duration",
+        "title": "Crise",
+        "typeMigraine": "De quel type de migraine s'agit-il?",
+        "triggerFactor": "As-tu une idée du/des facteurs déclencheur?",
+        "associatedSymptoms": "A tu eu des symptômes associés à cette migraine?",
+        "hasMedicationIntake": "As tu pris un traitement? Et était-il efficace?"
+      }
+    },
+    "journal": {
+      "questionnaireTitle": "Nom du Questionnaire",
+      "noData": "Pas de données disponibles",
+      "MOOD": "Mon Humeur",
+      "MY_DAY": "Ma Journée",
+      "score": "Score",
+      "CRISIS": "Vos Crises",
+      "SYMPTOMS": "Daily Checkup",
+      "QUESTIONNAIRE": "Vos Questionnaires",
+      "calendar": {
+        "title": "Calendrier",
+        "selectMyDay": "Selectionne tes filtres"
+      },
+      "dashboard": {
+        "title": "Analyses",
+        "year": "1 An",
+        "semester": "6 mois",
+        "quarter": "3 mois",
+        "month": "1 mois",
+        "lastMonth": "Données du mois dernier",
+        "last100": "Activités les plus récentes",
+        "yearAgo": "Il y a 1 an",
+        "semesterAgo": "Il y a 6 mois",
+        "quarterAgo": "Il y a 3 mois",
+        "today": "Aujourd'hui"
+      },
+      "month": "Mois",
+      "week": "Semaine",
+      "day": "Jour",
+      "today": "Aujourd'hui",
+      "list": "liste",
+      "title": "Journal",
+      "monday": "Lun",
+      "tuesday": "Mar",
+      "wednesday": "Mer",
+      "thursday": "Je",
+      "friday": "Ve",
+      "saturday": "Sa",
+      "sunday": "Di",
+      "increaseCrisis": "Votre nombre de crises à augmenté le mois dernier de ",
+      "decreaseCrisis": "Votre nombre de crises à diminué le mois dernier de ",
+      "stableCrisis": "Votre nombre de crise est resté stable le mois dernier"
+    },
+    "routines": {
+      "dashboard": {
+        "noDashboard": "Pas de statistiques disponibles",
+        "routineTask": "Tâche de routine",
+        "TASK_QUEST": "Ce tableau de bord vous permet de comparer votre score au questionnaire de suivi avec le nombre de fois où vous effectuez les tâches de routine."
+      },
+      "theAutor": "L'Auteur",
+      "toDoBefore": "A réaliser avant le : ",
+      "hasBeenMade": "cette tâche a été réalisée",
+      "times": "fois",
+      "title": "Routines",
+      "why": "Comment ca marche",
+      "what": "Tâches",
+      "description": "Description",
+      "anonymous": "Anonyme",
+      "results": "Résultats",
+      "social": "Social",
+      "followers": "Abonnés",
+      "lovedByOutch": " par Outch",
+      "lovedByOutchers": " par les Outchers",
+      "validatedByHCP": " validé par un médecin",
+      "newMessage": "Nouveau Message",
+      "theRoutine": "La Routine",
+      "theOpinions": "Les avis",
+      "yourRate": "Ton Vote",
+      "yourComment": "Commentaire",
+      "optional": "Optionnel",
+      "yourName": "Ton non",
+      "yourTitle": "Ton titre",
+      "yourTestimony": "Témoignage",
+      "mediaLink": "Lien du media",
+      "mediaType": "Type de media",
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "quarterly": "Trimestriel",
+      "rateRoutine": "Note la routine"
+    },
+    "productTour": {
+      "title1": "Checkup Quotidien",
+      "title3": "Rewards",
+      "title4": "Rappels",
+      "title5": "Routines",
+      "text1": "Tu vas maintenant recevoir ton premier Checkup quotidien. Note l'intensité de chaque symptôme sur une échelle de 0 à 5.",
+      "text3": "Maintenant que tu as rempli ton Checkup quotidien, tu as obtenus des rewards! Tu peux les voir dans la bar du haut. Tu as aussi augmenté ta série de Checkup. Si un jour tu l'oublis, elle retomberas à 0.",
+      "text4": "Veux tu que je t'envoie un rappel pour ton Checkup quotidien?",
+      "text5": "Tu peux maintenant aller sur la page Routine pour voir le programmes fais pour toi.",
+      "MOBILE_DAILY_MORNING": "Chaque Matin",
+      "MOBILE_DAILY_MIDDAY": "Chaque Midi",
+      "MOBILE_DAILY_EVENING": "Chaque soir",
+      "MAIL_DAILY": "Quotidien",
+      "MAIL_WEEKLY": "Hebdomadaire",
+      "MAIL_MONTHLY": "Mensuel"
+    },
+    "pro": {
+      "exports": {
+        "noFile": "Pas de fichier disponible"
+      },
+      "studies": {
+        "createStudy": "Créer une nouvelle étude",
+        "title": "Etudes",
+        "noStudy": "Pas d'études actuellement",
+        "cohortCounter": "Nombre d'utilisateurs dans la cohorte : "
+      }
+    }
+  }
+}
