@@ -334,6 +334,7 @@
       "title": "Réglages",
       "appleHealthKitSettings": "Apple Health Kit",
       "googleFitSettings": "Google Fit",
+      "mfaTOTP": "Code via App d'Authentification",
       "mfaTOTPCode1": "Entrer cette clé dans ton Authenticator App",
       "mfaTOTPCode2": "Entre maintenant le code généré par ton Authenticator App",
       "language": "Langue",
