@@ -313,6 +313,8 @@
       "title": "Settings",
       "appleHealthKitSettings": "Apple Health Kit",
       "googleFitSettings": "Google Fit",
+      "mfa": "Multi Factor Authentication",
+      "language": "Language",
       "requests": {
         "title": "Requests",
         "newRequest": "New Request",
