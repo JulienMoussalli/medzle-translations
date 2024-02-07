@@ -331,9 +331,11 @@
       "otherDoc": "Vous pouvez lire nos CGU et notre politique de vie privée ici : "
     },
     "settings": {
-      "title": "Settings",
+      "title": "Réglages",
       "appleHealthKitSettings": "Apple Health Kit",
       "googleFitSettings": "Google Fit",
+      "language": "Langue",
+      "mfa": "Authentification à 2 facteurs",
       "requests": {
         "title": "Requêtes",
         "newRequest": "Nouvelle Requête",
