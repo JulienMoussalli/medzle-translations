@@ -346,6 +346,11 @@
       "language": "Langue",
       "keyCopied": "Clé copiée",
       "mfa": "Authentification à 2 facteurs",
+      "personalization":{
+        "title": "Personnalisation",
+        "ANIMATION_BADGE": "Animation Badge",
+        "ANIMATION_REWARD": "Animation Récompense"
+      },
       "requests": {
         "title": "Requêtes",
         "newRequest": "Nouvelle Requête",
