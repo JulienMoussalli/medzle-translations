@@ -329,6 +329,11 @@
       "keyCopied": "Key Copied",
       "mfa": "Multi Factor Authentication",
       "language": "Language",
+      "personalization":{
+        "title": "Personalization",
+        "ANIMATION_BADGE": "Badge Animation",
+        "ANIMATION_REWARD": "Reward Animation"
+      },
       "requests": {
         "title": "Requests",
         "newRequest": "New Request",
