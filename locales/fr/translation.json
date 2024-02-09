@@ -308,7 +308,8 @@
         "confirmation": "Es-tu sur de vouloir l'acheter?",
         "category": {
           "VOUCHER": "Bon d'achat",
-          "DONATION": "Donation"
+          "DONATION": "Donation",
+          "PERSONALIZATION": "Personnalisation"
         },
         "VOUCHER": {
           "title": "Bon d'achat",
@@ -318,6 +319,11 @@
         "DONATION": {
           "title": "Donation",
           "description": "Don d'un montant de "
+        },
+        "PERSONALIZATION": {
+          "title": "Personnalisation",
+          "ANIMATION_REWARD": "Personnalise tes animations de récompense sur l'app!",
+          "ANIMATION_BADGE": "Personnalise tes animations de badge sur l'app!"
         },
         "buyIt" : "Acheter",
         "points": "Points"
