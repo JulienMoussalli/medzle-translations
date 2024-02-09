@@ -695,6 +695,7 @@
       }
     },
     "journal": {
+      "scale": "Echelle d'intensité",
       "questionnaireTitle": "Nom du Questionnaire",
       "noData": "Pas de données disponibles",
       "MOOD": "Mon Humeur",
