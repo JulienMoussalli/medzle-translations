@@ -699,6 +699,7 @@
       }
     },
     "journal": {
+      "scale": "Intensity Scale",
       "questionnaireTitle": "Questionnaire Name",
       "noData": "No Data Available",
       "MOOD": "Mood",
