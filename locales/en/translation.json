@@ -232,7 +232,8 @@
         "confirmation": "Are you sure you want to buy it?",
         "category": {
           "VOUCHER": "Voucher",
-          "DONATION": "Donation"
+          "DONATION": "Donation",
+          "PERSONALIZATION": "Personalization"
         },
         "VOUCHER": {
           "title": "Voucher",
