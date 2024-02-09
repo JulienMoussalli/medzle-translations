@@ -238,7 +238,16 @@
           "title": "Voucher",
           "description": "Voucher of ",
           "confirmation": "Your request has been sent, it is now in your inventory. It will be processed in less than 7 days."
-        }
+        },
+        "DONATION": {
+          "title": "Donation",
+          "description": "Donation of ",
+        },
+        "PERSONALIZATION": {
+          "title": "Personalization",
+          "ANIMATION_REWARD": "Get your own Outchi for your Reward animation!",
+          "ANIMATION_BADGE": "Get your own Outchi for your Badge animation!"
+        },
       }
     },
     "notifications": {
