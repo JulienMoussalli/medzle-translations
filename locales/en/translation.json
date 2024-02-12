@@ -3,19 +3,25 @@
   "appNamePro": "Outch Pro",
   "app": {
     "productTourV2": {
-      "1": {
+      "0": {
         "text": "It's your first visit! Don't worry, I'll explain everything to you."
+      },
+      "1": {
+        "text": "My name is Outchie, I made this place! How do you want me to call you?"
       },
       "2": {
         "text": "Every day, you will receive a card like this. It allows you to record the intensity of your symptoms. \n Fill it out and send it to try it out."
       },
       "3": {
-        "text": "You will also receive this card, which allows you to record your lifestyle and environment. Click on the emojis to fill it out and send it!"
+        "text": "To customize your own card, I need to know what are your chronic symptoms"
       },
       "4": {
-        "text": "These 2 cards help us find links between your symptoms and your lifestyle to offer you personalized routines. It's important to fill them out regularly. \n Would you like me to send you a notification to remind you?"
+        "text": "You will also receive this card, which allows you to record your lifestyle and environment. Click on the emojis to fill it out and send it!"
       },
       "5": {
+        "text": "These 2 cards help us find links between your symptoms and your lifestyle to offer you personalized routines. It's important to fill them out regularly. \n Would you like me to send you a notification to remind you?"
+      },
+      "6": {
         "text": "The first results may take some time to arrive. But we have planned many features to keep you motivated! Take a look at the navigation bar to explore everything!"
       }
     },
