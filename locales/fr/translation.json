@@ -3,19 +3,25 @@
   "appNamePro": "Outch Pro",
   "app": {
     "productTourV2": {
-      "1": {
+      "0": {
         "text": "C'est votre première visite! Pas d'inquiètude, je vais tout vous expliquer."
+      },
+      "1": {
+        "text": "Mon nom est Outchie, et j'ai créé cet endroit. Comment voulez-vous que je vous appelle?"
       },
       "2": {
         "text": "Tous les jours, vous allez recevoir une carte comme celle-ci. Elle vous permet de renseigner l'intensité de vos symptômes. \n Remplissez et envoyez celle-ci pour essayer."
       },
       "3": {
-        "text": "Vous allez aussi recevoir cette carte, qui vous permet de renseigner vos habitudes de vie et votre environnement du jour. Cliquez sur les emojis pour la remplir et envoyez là!"
+        "text": "Pour personnaliser ta carte, j'ai besoin de savoir quels sont tes symptômes récurrents."
       },
       "4": {
-        "text": "Ces 2 cartes nous permettent de trouver des liens entre vos symptômes et vos habitudes de vie pour vous proposer des routines personnalisées. C'est important de les remplir régulièrement. \n Voulez-vous que je vous envoie une notification pour ne pas oublier?"
+        "text": "Vous allez aussi recevoir cette carte, qui vous permet de renseigner vos habitudes de vie et votre environnement du jour. Cliquez sur les emojis pour la remplir et envoyez là!"
       },
       "5": {
+        "text": "Ces 2 cartes nous permettent de trouver des liens entre vos symptômes et vos habitudes de vie pour vous proposer des routines personnalisées. C'est important de les remplir régulièrement. \n Voulez-vous que je vous envoie une notification pour ne pas oublier?"
+      },
+      "6": {
         "text": "Les premiers résultats peuvent mettre un peu de temps à arriver. Mais on a prévu pleins de fonctionnalités pour vous garder motivé! Allez faire un tour dans la barre de navigation pour tout explorer! "
       }
     },
