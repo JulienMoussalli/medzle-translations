@@ -4,23 +4,18 @@
   "app": {
     "productTourV2": {
       "1": {
-        "title": "C'est votre prémière visite!",
-        "text": "Pas d'inquiètude, je vais tout vous expliquer."
+        "text": "C'est votre première visite! Pas d'inquiètude, je vais tout vous expliquer."
       },
       "2": {
-        "title": "Le Suivi des Symptômes",
         "text": "Tous les jours, vous allez recevoir une carte comme celle-ci. Elle vous permet de renseigner l'intensité de vos symptômes. \n Remplissez et envoyez celle-ci pour essayer."
       },
       "3": {
-        "title": "Vos habitudes de vie et environnement",
-        "text": "Vous allez aussi recevoir cette carte, qui vous permet de renseigner vos habitudes de vie, votre environnement. Cliquez sur les emojis pour la remplir et envoyez là!"
+        "text": "Vous allez aussi recevoir cette carte, qui vous permet de renseigner vos habitudes de vie et votre environnement du jour. Cliquez sur les emojis pour la remplir et envoyez là!"
       },
       "4": {
-        "title": "L'importance, c'est la régularité",
         "text": "Ces 2 cartes nous permettent de trouver des liens entre vos symptômes et vos habitudes de vie pour vous proposer des routines personnalisées. C'est important de les remplir régulièrement. \n Voulez-vous que je vous envoie une notification pour ne pas oublier?"
       },
       "5": {
-        "title": "Gardez la mativation!",
         "text": "Les premiers résultats peuvent mettre un peu de temps à arriver. Mais on a prévu pleins de fonctionnalités pour vous garder motivé! Allez faire un tour dans la barre de navigation pour tout explorer! "
       }
     },
