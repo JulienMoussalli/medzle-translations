@@ -234,6 +234,11 @@
           "VOUCHER": "Voucher",
           "DONATION": "Donation",
           "PERSONALIZATION": "Personalization"
+          "VIRTUAL_CARD": "Prepaid Card"
+        },
+        "VIRUAL_CARD": {
+          "title": "Prepaid Card",
+          "description": "Prepaid card of "
         },
         "VOUCHER": {
           "title": "Voucher",
