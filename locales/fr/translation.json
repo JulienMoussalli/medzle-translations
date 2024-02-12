@@ -307,9 +307,14 @@
         "title": "Boutique",
         "confirmation": "Es-tu sur de vouloir l'acheter?",
         "category": {
-          "VOUCHER": "Bon d'achat",
-          "DONATION": "Donation",
-          "PERSONALIZATION": "Personnalisation"
+          "VOUCHER": "Bons d'achat",
+          "DONATION": "Donations",
+          "PERSONALIZATION": "Personnalisation",
+          "VIRTUAL_CARD": "Cartes Prépayées"
+        },
+        "VIRUAL_CARD": {
+          "title": "Carte Prépayées",
+          "description": "Carte prépayée d'un montant de "
         },
         "VOUCHER": {
           "title": "Bon d'achat",
