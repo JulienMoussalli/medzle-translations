@@ -4,23 +4,18 @@
   "app": {
     "productTourV2": {
       "1": {
-        "title": "It's your first visit!",
-        "text": "Don't worry, I'll explain everything to you."
+        "text": "It's your first visit! Don't worry, I'll explain everything to you."
       },
       "2": {
-        "title": "Symptom Tracking",
         "text": "Every day, you will receive a card like this. It allows you to record the intensity of your symptoms. \n Fill it out and send it to try it out."
       },
       "3": {
-        "title": "Your Lifestyle and Environment",
         "text": "You will also receive this card, which allows you to record your lifestyle and environment. Click on the emojis to fill it out and send it!"
       },
       "4": {
-        "title": "Consistency is Key",
         "text": "These 2 cards help us find links between your symptoms and your lifestyle to offer you personalized routines. It's important to fill them out regularly. \n Would you like me to send you a notification to remind you?"
       },
       "5": {
-        "title": "Stay Motivated!",
         "text": "The first results may take some time to arrive. But we have planned many features to keep you motivated! Take a look at the navigation bar to explore everything!"
       }
     },
