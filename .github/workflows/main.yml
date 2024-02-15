@@ -12,7 +12,7 @@ jobs:
   
         - name: json-yaml-validate
           id: json-yaml-validate
-          uses: GrantBirki/json-yaml-validate@vX.X.X
+          uses: GrantBirki/json-yaml-validate@v2.6.0
   deploy:
     runs-on: ubuntu-latest
 
