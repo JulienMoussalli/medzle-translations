@@ -1,3 +1,19 @@
 {
-  
+  "templatePROGRAM": {
+    "title": "TITLE",
+    "description": "DESCRIPTION"
+  },
+  "templateROUTINE": {
+    "title": "TITLE",
+    "description": "DESCRIPTION",
+    "medical": "MEDICALTEXT"
+  },
+  "templateROUTINETASK": {
+    "title": "TITLE",
+    "description": "DESCRIPTION"
+  },
+  "routine_Hydration_DA": {
+    "title": "Hydration for a Less Irritated Skin",
+    "medical": "Hydration plays a crucial role in maintaining healthy skin, especially when prone to irritation. By maintaining an adequate level of hydration, the skin regains its natural protective barrier, helping to soothe irritations. Proper hydration also promotes cellular regeneration, thereby accelerating the healing process of irritated areas."
+  }
 }
