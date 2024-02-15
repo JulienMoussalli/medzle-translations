@@ -19,5 +19,13 @@
   "routine_Hydration_DA": {
     "title": "L'Hydratation pour une peau moins irritée",
     "medical": "L'hydratation joue un rôle essentiel dans le maintien d'une peau saine, notamment lorsqu'elle est sujette à l'irritation. En maintenant un niveau adéquat d'hydratation, la peau retrouve sa barrière protectrice naturelle, ce qui aide à apaiser les irritations. Une hydratation appropriée favorise également la régénération cellulaire, accélérant ainsi le processus de guérison des zones irritées."
+  },
+  "routine_creme_DA": {
+    "title": "De la crème tous les jours pour ma peau",
+    "medical": "Les crèmes hydratantes sont bénéfiques pour une peau irritée en rétablissant l'équilibre d'hydratation essentiel. Elles créent une barrière protectrice, apaisant ainsi les irritations et favorisant la guérison. De plus, les ingrédients apaisants présents dans ces crèmes contribuent à réduire l'inflammation, offrant un soulagement supplémentaire et rendant la peau plus résiliente."
+  },
+  "routine_AsthmaControl": {
+    "title": "Je contrôle mon Asthme",
+    "medical": "Contrôler régulièrement son asthme est crucial pour maintenir une gestion efficace de cette condition respiratoire. Cela permet d'évaluer la stabilité des symptômes, ajuster les médicaments si nécessaire et prévenir les crises potentielles. Le suivi régulier aide également à identifier les déclencheurs spécifiques, améliorant ainsi la qualité de vie des personnes asthmatiques et réduisant le risque de complications."
   }
 }
