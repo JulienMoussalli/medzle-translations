@@ -1,3 +1,15 @@
 {
-  
+  "templatePROGRAM": {
+    "title": "TITLE",
+    "description": "DESCRIPTION"
+  },
+  "templateROUTINE": {
+    "title": "TITLE",
+    "description": "DESCRIPTION",
+    "medical": "MEDICALTEXT"
+  },
+  "templateROUTINETASK: {
+    "title": "TITLE",
+    "description": "DESCRIPTION"
+  }
 }
