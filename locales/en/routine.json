@@ -19,5 +19,13 @@
   "routine_Hydration_DA": {
     "title": "Hydration for a Less Irritated Skin",
     "medical": "Hydration plays a crucial role in maintaining healthy skin, especially when prone to irritation. By maintaining an adequate level of hydration, the skin regains its natural protective barrier, helping to soothe irritations. Proper hydration also promotes cellular regeneration, thereby accelerating the healing process of irritated areas."
+  },
+  "routine_creme_DA": {
+    "title": "Cream for my skin",
+    "medical": "Moisturizing creams are beneficial for irritated skin by restoring essential hydration balance. They create a protective barrier, soothing irritations, and promoting healing. Moreover, the soothing ingredients in these creams help reduce inflammation, providing additional relief and making the skin more resilient."
+  },
+  "routine_AsthmaControl": {
+    "title": "I control my Asthma",
+    "medical": "Regularly monitoring asthma is crucial for maintaining effective management of this respiratory condition. It helps assess symptom stability, adjust medications if needed, and prevent potential flare-ups. Regular monitoring also aids in identifying specific triggers, thereby improving the quality of life for individuals with asthma and reducing the risk of complications."
   }
 }
