@@ -8,7 +8,7 @@
     "description": "DESCRIPTION",
     "medical": "MEDICALTEXT"
   },
-  "templateROUTINETASK: {
+  "templateROUTINETASK": {
     "title": "TITLE",
     "description": "DESCRIPTION"
   }
