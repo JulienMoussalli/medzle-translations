@@ -5,7 +5,6 @@
   },
   "templateROUTINE": {
     "title": "TITLE",
-    "description": "DESCRIPTION",
     "medical": "MEDICALTEXT"
   },
   "templateROUTINETASK": {
