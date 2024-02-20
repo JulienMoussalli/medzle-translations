@@ -4,10 +4,10 @@
   "app": {
     "productTourV2": {
       "0": {
-        "text": "It's your first visit! Don't worry, I'll explain everything to you."
+        "text": "First time here? No worries, I'll walk you through everything."
       },
       "1": {
-        "text": "My name is Outchie, I made this place! How do you want me to call you?"
+        "text": "My name is Outchie, the creator of this space! How would you like me to call you?"
       },
       "2": {
         "text": "Every day, you will receive a card like this. It allows you to record the intensity of your symptoms. \n Fill it out and send it to try it out."
